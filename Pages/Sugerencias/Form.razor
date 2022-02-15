@@ -1,0 +1,94 @@
+@page "/sugerencia/form"
+@page "/sugerencia/{id:int}"
+
+@using taanbus.Data.Models
+@using System.Net.Http
+@using System.Net.Http.Json
+@inject HttpClient http
+@inject NavigationManager nav
+
+@if (Id == null)
+{
+
+    <div class="container w-50 mb-2">
+        <h4 class="text-center">Presentar sugerencia</h4>
+    </div>
+
+    <hr>
+
+    <EditForm class="container_form container w-50" Model="@sugerencia">
+
+        <div class="form-floating mb-3">
+            <InputText @bind-Value="@sugerencia.NombreCiudadano" type="text" class="form-control" id="Nombre"
+            placeholder="Nombre">
+            </InputText>
+            <label for="Nombre">Nombre</label>
+        </div>
+
+
+        <div class="form-floating mb-3">
+            <InputText @bind-Value="@sugerencia.ApellidosCiudadano" type="text" class="form-control" id="Apellidos"
+            placeholder="Apellidos">
+            </InputText>
+            <label for="Apellidos">Apellidos</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <InputText @bind-Value="@sugerencia.CorreoCiudadano" type="text" class="form-control" id="Correo"
+            placeholder="Correo">
+            </InputText>
+            <label for="Correo">Correo</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <InputText @bind-Value="@sugerencia.TelefonoCiudadano" type="text" class="form-control" id="Telefono"
+            placeholder="Telefono">
+            </InputText>
+            <label for="Telefono">Telefono</label>
+        </div>
+
+
+        <div class="form-floating">
+            <InputTextArea @bind-Value="@sugerencia.Descripcion" class="form-control" placeholder="descripcion"
+            id="descripcion" style="height: 200px"></InputTextArea>
+            <label for="descripcion">Descripción</label>
+        </div>
+
+        <div class="row g-2 ms-1">
+            <button @onclick="Save" type="submit" class="btn btn-success btn-large mt-4 me-4 col-auto">Guardar</button>
+        </div>
+    </EditForm>
+    @* <EditForm Model="@sugerencia">
+        <label>Nombre</label>
+        <InputText @bind-Value="@sugerencia.NombreCiudadano"></InputText>
+        <label>Apellido</label>
+        <InputText @bind-Value="@sugerencia.ApellidosCiudadano"></InputText>
+        <label>Correo</label>
+        <InputText @bind-Value="@sugerencia.CorreoCiudadano"></InputText>
+        <label>Telefono</label>
+        <InputText @bind-Value="@sugerencia.TelefonoCiudadano"></InputText>
+        <label>Descripcion</label>
+        <InputText @bind-Value="@sugerencia.Descripcion"></InputText>
+        <button @onclick="Save"></button>
+        </EditForm> *@
+}
+
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+    SugerenciaModel sugerencia = new SugerenciaModel();
+
+    private async Task Save()
+    {
+        try
+        {
+            await http.PostAsJsonAsync<SugerenciaModel>("api/sugerencia", sugerencia);
+            nav.NavigateTo("/sugerencias");
+        }
+        catch (Exception e)
+        {
+            throw new Exception(e.Message);
+        }
+    }
+}

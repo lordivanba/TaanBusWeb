@@ -1,0 +1,63 @@
+@page "/queja/form"
+@page "/queja/{id:int}"
+
+@using taanbus.Data.Models
+@using System.Net.Http
+@using System.Net.Http.Json
+@inject HttpClient http
+@inject NavigationManager nav
+
+
+@if (Id == null)
+{
+    <div class="container w-50 mb-2">
+        <h4 class="text-center">Presentar queja</h4>
+    </div>
+
+    <hr>
+
+    <EditForm class="container_form container w-50" Model="@queja">
+
+        <div class="form-floating mb-3">
+            <InputText @bind-Value="@queja.MotivoQueja" type="text" class="form-control" id="Nombre" placeholder="Nombre">
+            </InputText>
+            <label for="Nombre">Motivo</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <InputDate @bind-Value="@queja.FechaHechos" class="form-control" id="fecha_hechos">
+            </InputDate>
+            <label for="fecha_hechos">Fecha de los hechos</label>
+        </div>
+
+        <div class="form-floating">
+            <InputTextArea @bind-Value="@queja.Descripcion" class="form-control" placeholder="descripcion" id="descripcion"
+            style="height: 200px"></InputTextArea>
+            <label for="descripcion">Descripción</label>
+        </div>
+
+        <div class="row g-2 ms-1">
+            <button @onclick="Save" type="submit" class="btn btn-success btn-large mt-4 me-4 col-auto">Guardar</button>
+        </div>
+
+    </EditForm>
+}
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+    QuejaModel queja = new QuejaModel();
+
+    private async Task Save()
+    {
+        try
+        {
+            await http.PostAsJsonAsync<QuejaModel>("api/queja", queja);
+            nav.NavigateTo("/quejas");
+        }
+        catch (Exception e)
+        {
+            throw new Exception(e.Message);
+        }
+    }
+}
