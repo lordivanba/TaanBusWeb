@@ -4,6 +4,24 @@ html, body {
     /* font-family: 'Helvetica', Helvetica, Arial, sans-serif; */
     font-family: 'Montserrat', sans-serif;
 }
+.container_form{
+    width: 50%;
+    height: auto;
+    font-size: 1rem;
+}
+
+.mytable{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.container_taanbus{
+    font-size: 0.95rem;
+}
+
+.mytable2{
+    width: 20rem;
+}
 
 .custom_btn{
     width: 6rem;

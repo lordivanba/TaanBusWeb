@@ -1,0 +1,53 @@
+@page "/queja/delete/{id:int}"
+
+@using taanbus.Data.Models
+@using System.Net.Http
+@using System.Net.Http.Json
+@inject HttpClient http
+@inject NavigationManager nav
+
+@if (Id != null)
+{
+    <PageTitle>Eliminar queja</PageTitle>
+    <div class="container w-50 mb-2">
+        <h3 class="text-center">Eliminar queja</h3>
+    </div>
+    <hr>
+    <div class="container w-50 mb-2 mt-2">
+        <h5 class="text-center">¿Desea eliminar este registro?</h5>
+        <div class="row d-flex justify-content-center align-content-center mt-2">
+            <button @onclick="Cancel" type="submit"
+            class="btn btn-outline-primary btn-sm mt-2 me-3 col-auto">Cancelar</button>
+            <button @onclick="Confirm" type="submit" class="btn btn-danger mt-2  btn-sm me-1 col-auto">Confirmar</button>
+        </div>
+    </div>
+
+
+}
+else
+{
+    <p>No id</p>
+}
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+
+    private void Cancel()
+    {
+        nav.NavigateTo("/quejas");
+    }
+
+    private async Task Confirm()
+    {
+        try
+        {
+            await http.DeleteAsync($"api/queja/{Id}");
+            nav.NavigateTo("/quejas");
+        }
+        catch (Exception e)
+        {
+            throw new Exception(e.Message);
+        }
+    }
+}

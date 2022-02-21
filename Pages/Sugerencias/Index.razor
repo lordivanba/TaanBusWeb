@@ -25,17 +25,14 @@
 
 <hr>
 
-<h6>Sugerencias registradas</h6>
+<h5>Sugerencias registradas</h5>
 @if (sugerencias != null)
 {
-    <table class="table">
+    <table class="mytable table w-100">
         <thead>
             <tr>
                 <th scope="col">ID</th>
-                <th scope="col">Nombre</th>
-                <th scope="col">Apellido</th>
-                <th scope="col">Correo</th>
-                <th scope="col">Telefono</th>
+                <th scope="col">Ciudadano</th>
                 <th scope="col">Descripcion</th>
                 <th scope="col">Fecha de registro</th>
             </tr>
@@ -45,10 +42,7 @@
             {
                 <tr>
                     <td scope="col">@sugerencia.Id</td>
-                    <td scope="col">@sugerencia.NombreCiudadano</td>
-                    <td scope="col">@sugerencia.ApellidosCiudadano</td>
-                    <td scope="col">@sugerencia.CorreoCiudadano</td>
-                    <td scope="col">@sugerencia.TelefonoCiudadano</td>
+                    <td scope="col">@sugerencia.NombreCiudadano @sugerencia.ApellidosCiudadano</td>
                     <td scope="col">@sugerencia.Descripcion</td>
                      <td scope="col">@sugerencia.FechaRegistro</td>
                     <td scope="col">
