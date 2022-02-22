@@ -9,55 +9,58 @@
 @inject NavigationManager nav
 
 
-<h4>Portal de sugerencias</h4>
+<h3 class="display-6">Portal de sugerencias</h3>
 <hr>
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum sunt, ex tempora similique obcaecati explicabo hic
-    placeat soluta dolor praesentium repellat vero sapiente accusantium, eos reiciendis. Dolore nisi iusto eaque!. Lorem
-    ipsum dolor sit, amet consectetur adipisicing elit. Commodi odio, velit quo enim earum error ipsam blanditiis
-    ducimus, minus cumque ab deleniti. Provident ad delectus pariatur debitis eum labore ut.</p>
-<h6>Objetivo</h6>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum iure sunt provident voluptatum expedita consequuntur,
-    esse iste ipsam itaque, numquam repudiandae. Veniam odio modi minima voluptatum, consequuntur itaque cum corporis.
+<p class="w-75 lead ">Aquí podrás dejar tu opinión al respecto del transporte público y los paraderos que estos utilizan
+    ya que todos
+    tenemos ideas al respecto de como este servicio se puede mejorar. Se necesita utilizar los recursos tecnológicos
+    para obetenr más gente, opiniónes además las personas tienen mucha creatividad, esta se puede implementar en el
+    servicio.</p>
+<h4>Objetivo</h4>
+<p class="w-75 lead">Nosotros deseamos que nuestras voces sean escuchadas, el transporte público genera muchos ingresos
+    y estos se pueden
+    seguir invirtiendo para el beneficio de todos, por lo cuál buscamos más ideas innovadoras para que todos podamos
+    disfrutar con mejor calidad el transporte y sus paraderos, queremos alzar nuestra voz por un medio digital actual..
 </p>
 <div class="button_">
     <a class="btn btn-success" href="sugerencia/form">Presentar sugerencia</a>
 </div>
 
-<hr>
-
-<h5>Sugerencias registradas</h5>
-@if (sugerencias != null)
-{
-    <table class="mytable table w-100">
-        <thead>
-            <tr>
-                <th scope="col">ID</th>
-                <th scope="col">Ciudadano</th>
-                <th scope="col">Descripcion</th>
-                <th scope="col">Fecha de registro</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var sugerencia in sugerencias)
-            {
+<div class="shadow p-3 mb-5 bg-body rounded w-100 mt-4">
+    <h4>Sugerencias registradas</h4>
+    @if (sugerencias != null)
+    {
+        <table class="mytable table">
+            <thead>
                 <tr>
-                    <td scope="col">@sugerencia.Id</td>
-                    <td scope="col">@sugerencia.NombreCiudadano @sugerencia.ApellidosCiudadano</td>
-                    <td scope="col">@sugerencia.Descripcion</td>
-                     <td scope="col">@sugerencia.FechaRegistro</td>
-                    <td scope="col">
-                        <button class="btn btn-outline-dark" @onclick="() => showSugerencia(sugerencia.Id)"><i><img
-                            src="https://img.icons8.com/material-outlined/24/000000/edit--v1.png" /></i></button>
-                    </td>
+                    <th scope="col">ID</th>
+                    <th scope="col">Ciudadano</th>
+                    <th scope="col">Descripcion</th>
+                    <th scope="col">Fecha de registro</th>
                 </tr>
-            }
-        </tbody>
-    </table>
-}
-else
-{
-    <p><em>Cargando...</em></p>
-}
+            </thead>
+            <tbody>
+                @foreach (var sugerencia in sugerencias)
+                {
+                    <tr>
+                        <td scope="col">@sugerencia.Id</td>
+                        <td scope="col">@sugerencia.NombreCiudadano @sugerencia.ApellidosCiudadano</td>
+                        <td scope="col">@sugerencia.Descripcion</td>
+                        <td scope="col">@sugerencia.FechaRegistro</td>
+                        <td scope="col">
+                            <button class="btn btn-outline-dark" @onclick="() => showSugerencia(sugerencia.Id)"><i><img
+                                src="https://img.icons8.com/material-outlined/24/000000/edit--v1.png" /></i></button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p><em>Cargando...</em></p>
+    }
+</div>
 
 @code {
     private readonly string api = "api/sugerencia";
@@ -67,7 +70,8 @@ else
     {
         sugerencias = await http.GetFromJsonAsync<IList<SugerenciaModel>>(api);
     }
-    void showSugerencia(int id){
+    void showSugerencia(int id)
+    {
         nav.NavigateTo($"sugerencia/{id}");
     }
 
