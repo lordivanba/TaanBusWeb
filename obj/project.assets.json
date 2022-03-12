@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\taanbus.csproj",
+      "projectUniqueName": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\taanbus.csproj",
       "projectName": "taanbus",
-      "projectPath": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\taanbus.csproj",
+      "projectPath": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\taanbus.csproj",
       "packagesPath": "C:\\Users\\viern\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\obj\\",
+      "outputPath": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\viern\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,41 @@
+@page "/login"
+
+
+<section class="d-flex justify-content-center ">
+    <div class="card mb-3 shadow p-3 mb-5 bg-body rounded w-75" style="max-width: 1020px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="\images\bus.jpeg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h2>Iniciar sesión</h2>
+                    <form>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="email"
+                                placeholder="Correo">
+                            
+                            <label for="email">Correo</label>
+                        </div>
+                           <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="password"
+                                placeholder="Contraseña">
+                            
+                            <label for="password">Contraseña</label>
+                        </div>
+
+                        <a href="admin" type="submit" class="btn btn-primary">Iniciar Sesión</a>
+                        <button type="submit" class="btn btn-primary"><img
+                                src="\images\google.png" style="width: 1rem; height: auto;"> Continuar con
+                            Google</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@code {
+
+}

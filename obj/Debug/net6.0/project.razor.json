@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\taanbus.csproj",
+  "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\taanbus.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -11,6 +11,39 @@
   },
   "ProjectWorkspaceState": {
     "TagHelpers": [
+      {
+        "HashCode": -1332970881,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Admin.Index",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Admin.Index"
+        }
+      },
+      {
+        "HashCode": 1925397290,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Admin.Index",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "taanbus.Pages.Admin.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Admin.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
       {
         "HashCode": -1531962334,
         "Kind": "Components.Component",
@@ -78,6 +111,39 @@
         }
       },
       {
+        "HashCode": 229045675,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Index",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -1721587487,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Index",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "taanbus.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1788333996,
         "Kind": "Components.Component",
         "Name": "taanbus.Pages.Login",
@@ -107,59 +173,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "taanbus.Pages.Login",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -240644422,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Quejas.Form",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Form"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32?",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Quejas.Form"
-        }
-      },
-      {
-        "HashCode": 1143256077,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Quejas.Form",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "taanbus.Pages.Quejas.Form"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32?",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Quejas.Form",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -217,6 +230,59 @@
         }
       },
       {
+        "HashCode": -240644422,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Quejas.Form",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Form"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Quejas.Form"
+        }
+      },
+      {
+        "HashCode": 1143256077,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Quejas.Form",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "taanbus.Pages.Quejas.Form"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Quejas.Form",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 689560656,
         "Kind": "Components.Component",
         "Name": "taanbus.Pages.Quejas.Index",
@@ -246,6 +312,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "taanbus.Pages.Quejas.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1588498161,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Register",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Register"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Register"
+        }
+      },
+      {
+        "HashCode": 1074651532,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Register",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "taanbus.Pages.Register"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Register",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -389,39 +488,6 @@
         }
       },
       {
-        "HashCode": 229045675,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Index",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Index"
-        }
-      },
-      {
-        "HashCode": -1721587487,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Index",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "taanbus.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -778565627,
         "Kind": "Components.Component",
         "Name": "taanbus.App",
@@ -455,35 +521,68 @@
         }
       },
       {
-        "HashCode": -1586326231,
+        "HashCode": -1443655428,
         "Kind": "Components.Component",
-        "Name": "taanbus.Shared.NavMenu",
+        "Name": "taanbus.Shared.Footer",
         "AssemblyName": "taanbus",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "Footer"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Shared.NavMenu"
+          "Common.TypeName": "taanbus.Shared.Footer"
         }
       },
       {
-        "HashCode": 1692369267,
+        "HashCode": 2089202033,
         "Kind": "Components.Component",
-        "Name": "taanbus.Shared.NavMenu",
+        "Name": "taanbus.Shared.Footer",
         "AssemblyName": "taanbus",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "taanbus.Shared.NavMenu"
+            "TagName": "taanbus.Shared.Footer"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Shared.NavMenu",
+          "Common.TypeName": "taanbus.Shared.Footer",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 981348677,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Shared.Nav",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Nav"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Shared.Nav"
+        }
+      },
+      {
+        "HashCode": 1636956369,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Shared.Nav",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "taanbus.Shared.Nav"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Shared.Nav",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -537,39 +636,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "taanbus.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 981348677,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Shared.Nav",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Nav"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Shared.Nav"
-        }
-      },
-      {
-        "HashCode": 1636956369,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Shared.Nav",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "taanbus.Shared.Nav"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Shared.Nav",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -670,35 +736,35 @@
         }
       },
       {
-        "HashCode": -1443655428,
+        "HashCode": -1586326231,
         "Kind": "Components.Component",
-        "Name": "taanbus.Shared.Footer",
+        "Name": "taanbus.Shared.NavMenu",
         "AssemblyName": "taanbus",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Footer"
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Shared.Footer"
+          "Common.TypeName": "taanbus.Shared.NavMenu"
         }
       },
       {
-        "HashCode": 2089202033,
+        "HashCode": 1692369267,
         "Kind": "Components.Component",
-        "Name": "taanbus.Shared.Footer",
+        "Name": "taanbus.Shared.NavMenu",
         "AssemblyName": "taanbus",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "taanbus.Shared.Footer"
+            "TagName": "taanbus.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Shared.Footer",
+          "Common.TypeName": "taanbus.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16989,103 +17055,113 @@
   "RootNamespace": "taanbus",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\Pages\\_Host.cshtml",
-      "TargetPath": "Pages\\_Host.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\Pages\\Quejas\\Index.razor",
-      "TargetPath": "Pages\\Quejas\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\Shared\\Nav.razor",
-      "TargetPath": "Shared\\Nav.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\Pages\\FetchData.razor",
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Pages\\FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\Pages\\Sugerencias\\Delete.razor",
-      "TargetPath": "Pages\\Sugerencias\\Delete.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\App.razor",
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\App.razor",
       "TargetPath": "App.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\Pages\\Sugerencias\\Form.razor",
-      "TargetPath": "Pages\\Sugerencias\\Form.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\Shared\\Footer.razor",
-      "TargetPath": "Shared\\Footer.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\Pages\\Sugerencias\\Index.razor",
-      "TargetPath": "Pages\\Sugerencias\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\Pages\\Login.razor",
-      "TargetPath": "Pages\\Login.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\Pages\\_Layout.cshtml",
-      "TargetPath": "Pages\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\Pages\\Quejas\\Form.razor",
-      "TargetPath": "Pages\\Quejas\\Form.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\Pages\\Quejas\\Delete.razor",
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Pages\\Quejas\\Delete.razor",
       "TargetPath": "Pages\\Quejas\\Delete.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\Shared\\SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Shared\\Nav.razor",
+      "TargetPath": "Shared\\Nav.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Pages\\Quejas\\Index.razor",
+      "TargetPath": "Pages\\Quejas\\Index.razor",
+      "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\Pages\\Index.razor",
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Pages\\Quejas\\Form.razor",
+      "TargetPath": "Pages\\Quejas\\Form.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\Shared\\MainLayout.razor",
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\Pages\\Counter.razor",
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Pages\\_Host.cshtml",
+      "TargetPath": "Pages\\_Host.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Pages\\Admin\\Index.razor",
+      "TargetPath": "Pages\\Admin\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Pages\\_Layout.cshtml",
+      "TargetPath": "Pages\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Pages\\Sugerencias\\Index.razor",
+      "TargetPath": "Pages\\Sugerencias\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Pages\\Login.razor",
+      "TargetPath": "Pages\\Login.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Pages\\Register.razor",
+      "TargetPath": "Pages\\Register.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Shared\\Footer.razor",
+      "TargetPath": "Shared\\Footer.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Pages\\Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Pages\\Sugerencias\\Delete.razor",
+      "TargetPath": "Pages\\Sugerencias\\Delete.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Pages\\Sugerencias\\Form.razor",
+      "TargetPath": "Pages\\Sugerencias\\Form.razor",
       "FileKind": "component"
     }
   ],

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ICikdqHLw6UCi8fUavcltxyb8a5h0Z25COe8Gno3RXU=",
+  "Hash": "WPeKjHJHgN1UopN0+dKrNMBzURmnGzD+DeX0MFqsPa0=",
   "Source": "taanbus",
   "BasePath": "_content/taanbus",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "taanbus\\wwwroot",
       "Source": "taanbus",
-      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
       "BasePath": "_content/taanbus",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\obj\\Debug\\net6.0\\scopedcss\\bundle\\taanbus.styles.css",
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\taanbus.styles.css",
       "SourceId": "taanbus",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/taanbus",
       "RelativePath": "taanbus.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\obj\\Debug\\net6.0\\scopedcss\\bundle\\taanbus.styles.css"
+      "OriginalItemSpec": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\taanbus.styles.css"
     },
     {
-      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\taanbus.bundle.scp.css",
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\taanbus.bundle.scp.css",
       "SourceId": "taanbus",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/taanbus",
       "RelativePath": "taanbus.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\taanbus.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\taanbus.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "taanbus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
       "BasePath": "_content/taanbus",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "taanbus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
       "BasePath": "_content/taanbus",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\css\\bootstrap\\lux.bootstrap.min.css",
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\css\\bootstrap\\lux.bootstrap.min.css",
       "SourceId": "taanbus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
       "BasePath": "_content/taanbus",
       "RelativePath": "css/bootstrap/lux.bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\lux.bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "taanbus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
       "BasePath": "_content/taanbus",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "taanbus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
       "BasePath": "_content/taanbus",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "taanbus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
       "BasePath": "_content/taanbus",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "taanbus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
       "BasePath": "_content/taanbus",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "taanbus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
       "BasePath": "_content/taanbus",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "taanbus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
       "BasePath": "_content/taanbus",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "taanbus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
       "BasePath": "_content/taanbus",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "taanbus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
       "BasePath": "_content/taanbus",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "taanbus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
       "BasePath": "_content/taanbus",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\css\\site.css",
       "SourceId": "taanbus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
       "BasePath": "_content/taanbus",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\favicon.ico",
       "SourceId": "taanbus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
       "BasePath": "_content/taanbus",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -289,12 +289,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\Utm_logo.png",
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\images\\bus.jpeg",
       "SourceId": "taanbus",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
       "BasePath": "_content/taanbus",
-      "RelativePath": "Utm_logo.png",
+      "RelativePath": "images/bus.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -303,7 +303,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Utm_logo.png"
+      "OriginalItemSpec": "wwwroot\\images\\bus.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\images\\google.png",
+      "SourceId": "taanbus",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
+      "BasePath": "_content/taanbus",
+      "RelativePath": "images/google.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\google.png"
+    },
+    {
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\images\\Utm_logo.png",
+      "SourceId": "taanbus",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
+      "BasePath": "_content/taanbus",
+      "RelativePath": "images/Utm_logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Utm_logo.png"
     }
   ]
 }
