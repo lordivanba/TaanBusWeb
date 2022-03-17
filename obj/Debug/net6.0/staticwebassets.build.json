@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WPeKjHJHgN1UopN0+dKrNMBzURmnGzD+DeX0MFqsPa0=",
+  "Hash": "p8D7VVt1FOqc+ZP7K3A4gzTH8K0B5oW2e7qJf7Md/lY=",
   "Source": "taanbus",
   "BasePath": "_content/taanbus",
   "Mode": "Default",
@@ -323,6 +323,23 @@
       "OriginalItemSpec": "wwwroot\\images\\google.png"
     },
     {
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\images\\orgullo-utm.png",
+      "SourceId": "taanbus",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
+      "BasePath": "_content/taanbus",
+      "RelativePath": "images/orgullo-utm.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\orgullo-utm.png"
+    },
+    {
       "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\images\\Utm_logo.png",
       "SourceId": "taanbus",
       "SourceType": "Discovered",
@@ -338,6 +355,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Utm_logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\images\\utm-logo2.png",
+      "SourceId": "taanbus",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\wwwroot\\",
+      "BasePath": "_content/taanbus",
+      "RelativePath": "images/utm-logo2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\utm-logo2.png"
     }
   ]
 }

@@ -12,51 +12,12 @@
     <PageTitle>Presentar sugerencia</PageTitle>
 
     <div class="container w-50 mb-2">
-        <h4 class="text-center display-6">Presentar sugerencia</h4>
+        <h3 class="text-center">Presentar sugerencia</h3>
     </div>
 
     <hr>
 
     <EditForm class="container_form container w-50" Model="@sugerencia">
-
-        <div class="row g-3">
-            <div class="col">
-                <div class="form-floating mb-3">
-                    <InputText @bind-Value="@sugerencia.NombreCiudadano" type="text" class="form-control" id="Nombre"
-                    placeholder="Nombre">
-                    </InputText>
-                    <label for="Nombre">Nombre</label>
-                </div>
-            </div>
-            <div class="col">
-                <div class="form-floating mb-3">
-                    <InputText @bind-Value="@sugerencia.ApellidosCiudadano" type="text" class="form-control" id="Apellidos"
-                    placeholder="Apellidos">
-                    </InputText>
-                    <label for="Apellidos">Apellidos</label>
-                </div>
-            </div>
-        </div>
-
-        <div class="row g-3">
-            <div class="col">
-                <div class="form-floating mb-3">
-                    <InputText @bind-Value="@sugerencia.CorreoCiudadano" type="text" class="form-control" id="Correo"
-                    placeholder="Correo">
-                    </InputText>
-                    <label for="Correo">Correo</label>
-                </div>
-            </div>
-            <div class="col">
-                <div class="form-floating mb-3">
-                    <InputText @bind-Value="@sugerencia.TelefonoCiudadano" type="text" class="form-control" id="Telefono"
-                    placeholder="Telefono">
-                    </InputText>
-                    <label for="Telefono">Telefono</label>
-                </div>
-            </div>
-        </div>
-
 
         <div class="form-floating">
             <InputTextArea @bind-Value="@sugerencia.Descripcion" class="form-control" placeholder="descripcion"
@@ -80,44 +41,6 @@ else
     <hr>
 
     <EditForm class="container_form container" Model="@sugerencia">
-
-        <div class="row g-3">
-            <div class="col">
-                <div class="form-floating mb-3">
-                    <InputText @bind-Value="@sugerencia.NombreCiudadano" type="text" class="form-control" id="Nombre"
-                    placeholder="Nombre">
-                    </InputText>
-                    <label for="Nombre">Nombre</label>
-                </div>
-            </div>
-            <div class="col">
-                <div class="form-floating mb-3">
-                    <InputText @bind-Value="@sugerencia.ApellidosCiudadano" type="text" class="form-control" id="Apellidos"
-                    placeholder="Apellidos">
-                    </InputText>
-                    <label for="Apellidos">Apellidos</label>
-                </div>
-            </div>
-        </div>
-
-        <div class="row g-3">
-            <div class="col">
-                <div class="form-floating mb-3">
-                    <InputText @bind-Value="@sugerencia.CorreoCiudadano" type="text" class="form-control" id="Correo"
-                    placeholder="Correo">
-                    </InputText>
-                    <label for="Correo">Correo</label>
-                </div>
-            </div>
-            <div class="col">
-                <div class="form-floating mb-3">
-                    <InputText @bind-Value="@sugerencia.TelefonoCiudadano" type="text" class="form-control" id="Telefono"
-                    placeholder="Telefono">
-                    </InputText>
-                    <label for="Telefono">Telefono</label>
-                </div>
-            </div>
-        </div>
 
         <div class="form-floating">
             <InputTextArea @bind-Value="@sugerencia.Descripcion" class="form-control" placeholder="descripcion"

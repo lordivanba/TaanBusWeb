@@ -12,7 +12,7 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1332970881,
+        "HashCode": -900080259,
         "Kind": "Components.Component",
         "Name": "taanbus.Pages.Admin.Index",
         "AssemblyName": "taanbus",
@@ -22,13 +22,31 @@
             "TagName": "Index"
           }
         ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Token",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Token"
+            }
+          }
+        ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "taanbus.Pages.Admin.Index"
         }
       },
       {
-        "HashCode": 1925397290,
+        "HashCode": 75681773,
         "Kind": "Components.Component",
         "Name": "taanbus.Pages.Admin.Index",
         "AssemblyName": "taanbus",
@@ -38,9 +56,96 @@
             "TagName": "taanbus.Pages.Admin.Index"
           }
         ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Token",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Token"
+            }
+          }
+        ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "taanbus.Pages.Admin.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1779623166,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Ciudadano.Index",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Token",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Token"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Ciudadano.Index"
+        }
+      },
+      {
+        "HashCode": -994993074,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Ciudadano.Index",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "taanbus.Pages.Ciudadano.Index"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Token",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Token"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Ciudadano.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -17077,6 +17182,11 @@
     {
       "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Pages\\Quejas\\Index.razor",
       "TargetPath": "Pages\\Quejas\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\Pages\\Ciudadano\\Index.razor",
+      "TargetPath": "Pages\\Ciudadano\\Index.razor",
       "FileKind": "component"
     },
     {

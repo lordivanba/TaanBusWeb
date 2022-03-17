@@ -1,19 +1,40 @@
-@page "/admin"
+@page "/panel_administrativo/{id:int}/{token}"
 
 
-<div class="d-flex justify-content-center">
-    <div class="d-flex">
-    <a href="#" class="card" style="width: 18rem; height: 5rem; text-decoration: none;">
-        <div class="card-body">
-            <h2>Quejas</h2>
+@if (Id != null)
+{
+    <div class="container w-50 mb-2">
+        <h4 class="text-center display-6">Panel administrativo</h4>
+    </div>
+
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h3 class="card-title">Quejas</h3>
+                        <p class="card-text">En este apartado tendrás acceso a las quejas que han registrado los ciudadanos
+                            dentro del sitio.</p>
+                        <a href="#" class="btn btn-primary">Gestionar quejas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h3 class="card-title">Sugerencias</h3>
+                        <p class="card-text">En este apartado tendrás acceso a las sugerencias que han registrado los
+                            ciudadanos dentro del sitio.</p>
+                        <a href="#" class="btn btn-primary">Gestionar sugerencias</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </a>
+    </div>
+}
 
-    <a href="#" class="card" style="width: 18rem; height: 5rem; text-decoration: none;">
-        <div class="card-body">
-            <h2>Sugerencias</h2>
-        </div>
-    </a>
-</div>
-
-</div>
+@code {
+    [Parameter] public int? Id { get; set; }
+    [Parameter] public string? Token { get; set; }
+}
