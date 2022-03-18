@@ -10,7 +10,8 @@
     <div class="card mb-3 shadow p-3 mb-2 bg-body rounded w-75" style="max-width: 1020px;">
         <h3>Registro de usuario</h3>
         <EditForm Model="@user">
-
+            <DataAnnotationsValidator />
+            <ValidationSummary />
             <div class="row g-3">
                 <div class="col">
                     <div class="form-floating mb-3">
@@ -62,7 +63,8 @@
             </div>
 
             <div class="row g-2 ms-1">
-                <button @onclick="RegisterUser" type="submit" class="btn btn-success mt-4 me-4 col-auto">Registrarme</button>
+                <button @onclick="RegisterUser" type="submit"
+                    class="btn btn-success mt-4 me-4 col-auto">Registrarme</button>
             </div>
         </EditForm>
     </div>
@@ -72,14 +74,17 @@
     UserModel user = new UserModel();
     private async Task RegisterUser()
     {
-        try
+        if (!String.IsNullOrEmpty(user.Username) && !String.IsNullOrEmpty(user.Password))
         {
-            await http.PostAsJsonAsync<UserModel>($"api/login/register", user);
+            try
+            {
+                await http.PostAsJsonAsync<UserModel>($"api/login/register", user);
+                nav.NavigateTo("/login");
+            }
+            catch (Exception e)
+            {
+                System.Console.WriteLine(e);
+            }
         }
-        catch (Exception e)
-        {
-            System.Console.WriteLine(e);
-        }
-        nav.NavigateTo("/ciudadano");
     }
 }

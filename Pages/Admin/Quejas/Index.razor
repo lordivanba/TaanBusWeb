@@ -1,6 +1,6 @@
-@page "/quejas"
+@page "/panel_administrativo/{id:int}/{token}/quejas"
 
-<PageTitle>Portal quejas</PageTitle>
+<PageTitle>Gestión de quejas</PageTitle>
 
 @using taanbus.Data.Models
 @using System.Net.Http
@@ -8,38 +8,15 @@
 @inject HttpClient http
 @inject NavigationManager nav
 
-<h3>Portal de quejas</h3>
-<hr>
-<div class="">
-    <p class="w-75">Se han realizado investigaciones y el 90% de la poblaciónd Mérida ha tenido problemas o no esta
-        conforme con el
-        transporte público que se imparte en la ciudad por lo cuál decidimos crear esta página para poder dar a conocer
-        todo los problemas que las personas hayan vivido, además de que hemos notado muchas irregularidades con personas
-        de la tercera edad, acoso hacía las mujeres, poco respeto a las mujeres embarazadas, pésima higiene y no hay
-        asientos públicos en los paraderos.</p>
-    <h4>Objetivo</h4>
-    <p class="w-75">La voz del pueblo no ha sido escuchada lo suficiente y queremos que todos nuestros problemas
-        salgan a la luz,
-        como pueblo estamos unidos en esto y se necesitan escuchar nuestras quejas, es la manera más optima de obtener
-        opiniones ya que no se necesitan de encuestas físicas, interacción y a cualquier persona le puede llegar para
-        que esta de su opinión ya que tanto en investigaciones y conocidos personales hemos tenido problemas físicos con
-        este servicio que logra dar secuelas psicológicas.
-    </p>
-</div>
-
-<h4>¿Tienes alguna mala experiencia que desees compartir con la comunidad? Cuéntanos presetentando tu queja!</h4>
-<div class="button_">
-    <a class="btn btn-danger" href="queja/form">Presentar queja</a>
-</div>
+<h3 class="text-center">Gestión de quejas de los ciudadanos</h3>
 
 <div class="shadow p-3 mb-5 bg-body rounded w-100 mt-4">
-    <h4>Quejas registradas</h4>
-
     @if (quejas != null)
     {
         <table class="mytable table w-100">
             <thead>
                 <tr>
+                    <th scope="col">Ciudadano</th>
                     <th scope="col">Motivo</th>
                     <th scope="col">Fecha de hechos</th>
                     <th scope="col">Descripción</th>
@@ -50,6 +27,7 @@
                 @foreach (var queja in quejas)
                 {
                     <tr>
+                        <td scope="col">@queja.Ciudadano</td>
                         <td scope="col">@queja.MotivoQueja</td>
                         <td scope="col">@queja.FechaHechos</td>
                         <td scope="col">@queja.Descripcion</td>
@@ -71,6 +49,8 @@
 
 
 @code {
+    [Parameter] public int? Id { get; set; }
+    [Parameter] public string? Token { get; set; }
     private readonly string api = "api/queja";
     private IList<QuejaModel>? quejas;
 

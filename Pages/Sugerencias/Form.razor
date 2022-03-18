@@ -18,7 +18,8 @@
     <hr>
 
     <EditForm class="container_form container w-50" Model="@sugerencia">
-
+        <DataAnnotationsValidator />
+        <ValidationSummary />
         <div class="form-floating">
             <InputTextArea @bind-Value="@sugerencia.Descripcion" class="form-control" placeholder="descripcion"
             id="descripcion" style="height: 200px"></InputTextArea>
@@ -41,7 +42,8 @@ else
     <hr>
 
     <EditForm class="container_form container" Model="@sugerencia">
-
+        <DataAnnotationsValidator />
+        <ValidationSummary />
         <div class="form-floating">
             <InputTextArea @bind-Value="@sugerencia.Descripcion" class="form-control" placeholder="descripcion"
             id="descripcion" style="height: 200px"></InputTextArea>
@@ -71,27 +73,33 @@ else
 
     private async Task Save()
     {
-        try
+        if (!String.IsNullOrEmpty(sugerencia.Descripcion))
         {
-            await http.PostAsJsonAsync<SugerenciaModel>("api/sugerencia", sugerencia);
-            nav.NavigateTo("/sugerencias");
-        }
-        catch (Exception e)
-        {
-            throw new Exception(e.Message);
+            try
+            {
+                await http.PostAsJsonAsync<SugerenciaModel>("api/sugerencia", sugerencia);
+                nav.NavigateTo("/sugerencias");
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
         }
     }
 
     private async Task Update()
     {
-        try
+        if (!String.IsNullOrEmpty(sugerencia.Descripcion))
         {
-            await http.PutAsJsonAsync<SugerenciaModel>($"api/sugerencia/{Id}", sugerencia);
-            nav.NavigateTo("/sugerencias");
-        }
-        catch (Exception e)
-        {
-            throw new Exception(e.Message);
+            try
+            {
+                await http.PutAsJsonAsync<SugerenciaModel>($"api/sugerencia/{Id}", sugerencia);
+                nav.NavigateTo("/sugerencias");
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
         }
     }
 

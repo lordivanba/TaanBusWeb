@@ -19,7 +19,8 @@
     <hr>
 
     <EditForm class="container_form container w-50" Model="@queja">
-
+        <DataAnnotationsValidator />
+        <ValidationSummary />
         <div class="form-floating mb-3">
             <InputText @bind-Value="@queja.MotivoQueja" type="text" class="form-control" id="Nombre" placeholder="Nombre">
             </InputText>
@@ -54,7 +55,8 @@ else
     <hr>
 
     <EditForm class="container_form container w-50" Model="@queja">
-
+        <DataAnnotationsValidator />
+        <ValidationSummary />
         <div class="form-floating mb-3">
             <InputText @bind-Value="@queja.MotivoQueja" type="text" class="form-control" id="Nombre" placeholder="Nombre">
             </InputText>
@@ -84,7 +86,7 @@ else
 @code {
     [Parameter]
     public int? Id { get; set; }
-    QuejaModel queja = new QuejaModel();
+    QuejaModel? queja = new QuejaModel();
 
     protected override async Task OnInitializedAsync()
     {
@@ -94,29 +96,38 @@ else
         }
     }
 
+    //TODO user_id = null?;
     private async Task Save()
     {
-        try
+        if (!String.IsNullOrEmpty(queja.MotivoQueja) && !String.IsNullOrEmpty(queja.Descripcion))
         {
-            await http.PostAsJsonAsync<QuejaModel>("api/queja", queja);
-            nav.NavigateTo("/quejas");
-        }
-        catch (Exception e)
-        {
-            throw new Exception(e.Message);
+            //NECESITA EL ID
+            queja.UserId = 2;
+            try
+            {
+                await http.PostAsJsonAsync<QuejaModel>("api/queja", queja);
+                nav.NavigateTo("/quejas");
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
         }
     }
 
     private async Task Update()
     {
-        try
+        if (!String.IsNullOrEmpty(queja.MotivoQueja) && !String.IsNullOrEmpty(queja.Descripcion))
         {
-            await http.PutAsJsonAsync<QuejaModel>($"api/queja/{Id}", queja);
-            nav.NavigateTo("/quejas");
-        }
-        catch (Exception e)
-        {
-            throw new Exception(e.Message);
+            try
+            {
+                await http.PutAsJsonAsync<QuejaModel>($"api/queja/{Id}", queja);
+                nav.NavigateTo("/quejas");
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
         }
     }
 

@@ -1,35 +1,15 @@
-@page "/sugerencias"
+@page "/panel_administrativo/{id:int}/{token}/sugerencias"
 
-<PageTitle>Portal sugerencias</PageTitle>
+<PageTitle>Gestión de sugerencias</PageTitle>
 
-@using taanbus.Data.Models
+@using Data.Models
 @using System.Net.Http
 @using System.Net.Http.Json
 @inject HttpClient http
 @inject NavigationManager nav
 
-
-<h3>Portal de sugerencias</h3>
-<hr>
-<p class="w-75">Aquí podrás dejar tu opinión al respecto del transporte público y los paraderos que estos utilizan
-    ya que todos
-    tenemos ideas al respecto de como este servicio se puede mejorar. Se necesita utilizar los recursos tecnológicos
-    para obetenr más gente, opiniónes además las personas tienen mucha creatividad, esta se puede implementar en el
-    servicio.</p>
-<h4>Objetivo</h4>
-<p class="w-75">Nosotros deseamos que nuestras voces sean escuchadas, el transporte público genera muchos ingresos
-    y estos se pueden
-    seguir invirtiendo para el beneficio de todos, por lo cuál buscamos más ideas innovadoras para que todos podamos
-    disfrutar con mejor calidad el transporte y sus paraderos, queremos alzar nuestra voz por un medio digital actual..
-</p>
-
-<h4>¿Tienes alguna idea o sugerencia para mejorar el servicio de transporte público? Presenta tu sugerencia!</h4>
-<div class="button_">
-    <a class="btn btn-success" href="sugerencia/form">Presentar sugerencia</a>
-</div>
-
+<h3 class="text-center">Gestión de sugerencias de los ciudadanos</h3>
 <div class="shadow p-3 mb-5 bg-body rounded w-100 mt-4">
-    <h4>Sugerencias registradas</h4>
     @if (sugerencias != null)
     {
         <table class="mytable table">
@@ -62,6 +42,8 @@
 </div>
 
 @code {
+    [Parameter] public int? Id { get; set; }
+    [Parameter] public string? Token { get; set; }
     private readonly string api = "api/sugerencia";
     private IList<SugerenciaModel>? sugerencias;
 

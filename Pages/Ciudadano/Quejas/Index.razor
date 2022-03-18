@@ -1,0 +1,63 @@
+@page "/panel_ciudadano/{id:int}/{token}/quejas"
+
+<PageTitle>Mis quejas</PageTitle>
+
+@using taanbus.Data.Models
+@using System.Net.Http
+@using System.Net.Http.Json
+@inject HttpClient http
+@inject NavigationManager nav
+
+<h3 class="text-center">Gestión de mis quejas</h3>
+<div class="shadow p-3 mb-5 bg-body rounded w-100 mt-4">
+    @if (quejas != null)
+    {
+        <table class="mytable table w-100">
+            <thead>
+                <tr>
+                    <th scope="col">Motivo</th>
+                    <th scope="col">Fecha de hechos</th>
+                    <th scope="col">Descripción</th>
+                    <th scope="col">Fecha de registro</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var queja in quejas)
+                {
+                    <tr>
+                        <td scope="col">@queja.MotivoQueja</td>
+                        <td scope="col">@queja.FechaHechos</td>
+                        <td scope="col">@queja.Descripcion</td>
+                        <td scope="col">@queja.FechaRegistro</td>
+                        <td scope="col">
+                            <button class="btn btn-outline-dark" @onclick="() => showQueja(queja.Id)"><i><img
+                                src="https://img.icons8.com/material-outlined/24/000000/edit--v1.png" /></i></button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p><em>Cargando...</em></p>
+    }
+</div>
+
+
+@code {
+    [Parameter] public int? Id { get; set; }
+    [Parameter] public string? Token { get; set; }
+    private readonly string api = "api/queja/user=";
+    private IList<QuejaModel>? quejas;
+
+    protected override async Task OnInitializedAsync()
+    {
+        quejas = await http.GetFromJsonAsync<IList<QuejaModel>>($"{api}{Id}");
+    }
+
+    void showQueja(int id)
+    {
+        nav.NavigateTo($"queja/{id}");
+    }
+}

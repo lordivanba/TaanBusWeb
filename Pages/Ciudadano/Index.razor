@@ -1,9 +1,11 @@
 @page "/panel_ciudadano/{id:int}/{token}"
 
+@inject NavigationManager nav
+
 <PageTitle>Panel ciudadano</PageTitle>
 
 <div class="container w-50 mb-2">
-    <h4 class="text-center display-6">Panel ciudadano</h4>
+    <h4 class="text-center">Panel ciudadano</h4>
 </div>
 
 <hr>
@@ -15,7 +17,7 @@
                     <h5 class="card-title">Mis quejas</h5>
                     <p class="card-text">En este apartado tendrás acceso a las quejas que has registrado dentro del
                         sitio.</p>
-                    <a href="#" class="btn btn-primary">Ver mis quejas</a>
+                    <button @onclick="Quejas" class="btn btn-primary">Ver mis quejas</button>
                 </div>
 
             </div>
@@ -26,7 +28,7 @@
                     <h5 class="card-title">Mis sugerencias</h5>
                     <p class="card-text">En este apartado tendrás acceso a las sugerencias que has registrado dentro del
                         sitio.</p>
-                    <a href="#" class="btn btn-primary">Ver mis sugerencias</a>s
+                    <button @onclick="Sugerencias" class="btn btn-primary">Ver mis sugerencias</button>
                 </div>
             </div>
         </div>
@@ -36,4 +38,12 @@
 @code {
     [Parameter] public int? Id { get; set; }
     [Parameter] public string? Token { get; set; }
+    private void Quejas()
+    {
+        nav.NavigateTo($"panel_ciudadano/{Id}/{Token}/quejas");
+    }
+    private void Sugerencias()
+    {
+        nav.NavigateTo($"panel_ciudadano/{Id}/{Token}/sugerencias");
+    }
 }
