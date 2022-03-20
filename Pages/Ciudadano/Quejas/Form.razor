@@ -50,7 +50,7 @@ else
 {
     <PageTitle>Detalles queja</PageTitle>
     <div class="container w-50 mb-2">
-        <h4 class="text-center display-6">Detalles queja</h4>
+        <h3 class="text-center display-6">Detalles queja</h3>
     </div>
 
     <hr>
@@ -99,12 +99,10 @@ else
         }
     }
 
-    //TODO user_id = null?;
     private async Task Save()
     {
         if (!String.IsNullOrEmpty(queja.MotivoQueja) && !String.IsNullOrEmpty(queja.Descripcion))
         {
-            //NECESITA EL ID
             queja.UserId = Id;
             try
             {

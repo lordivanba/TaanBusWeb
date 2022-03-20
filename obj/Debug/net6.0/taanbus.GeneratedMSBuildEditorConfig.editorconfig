@@ -8,157 +8,157 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = taanbus
 build_property.RootNamespace = taanbus
-build_property.ProjectDir = C:\Users\viern\Documents\code\dotnet\TaanBusWeb\
+build_property.ProjectDir = c:\Users\viern\Documents\code\dotnet\TaanBusWeb\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\viern\Documents\code\dotnet\TaanBusWeb
+build_property.MSBuildProjectDirectory = c:\Users\viern\Documents\code\dotnet\TaanBusWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/App.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Admin/Index.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Admin/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Admin/Quejas/Detalles.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Admin/Quejas/Detalles.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUXVlamFzXERldGFsbGVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Admin/Quejas/Index.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Admin/Quejas/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUXVlamFzXEluZGV4LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Admin/Sugerencias/Detalles.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Admin/Sugerencias/Detalles.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU3VnZXJlbmNpYXNcRGV0YWxsZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Admin/Sugerencias/Index.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Admin/Sugerencias/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU3VnZXJlbmNpYXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Index.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l1ZGFkYW5vXEluZGV4LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Quejas/Delete.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Quejas/Delete.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l1ZGFkYW5vXFF1ZWphc1xEZWxldGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Quejas/Form.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Quejas/Form.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l1ZGFkYW5vXFF1ZWphc1xGb3JtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Quejas/Index.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Quejas/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l1ZGFkYW5vXFF1ZWphc1xJbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Sugerencias/Delete.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Sugerencias/Delete.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l1ZGFkYW5vXFN1Z2VyZW5jaWFzXERlbGV0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Sugerencias/Form.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Sugerencias/Form.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l1ZGFkYW5vXFN1Z2VyZW5jaWFzXEZvcm0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Sugerencias/Index.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Sugerencias/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l1ZGFkYW5vXFN1Z2VyZW5jaWFzXEluZGV4LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Counter.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/FetchData.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Index.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Login.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Quejas/Delete.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Quejas/Delete.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVlamFzXERlbGV0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Quejas/Form.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Quejas/Form.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVlamFzXEZvcm0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Quejas/Index.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Quejas/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVlamFzXEluZGV4LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Register.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Sugerencias/Delete.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Sugerencias/Delete.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VnZXJlbmNpYXNcRGVsZXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Sugerencias/Form.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Sugerencias/Form.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VnZXJlbmNpYXNcRm9ybS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Sugerencias/Index.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Sugerencias/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VnZXJlbmNpYXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Shared/AdminLayout.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Shared/AdminLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFkbWluTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Shared/CiudadanoLayout.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Shared/CiudadanoLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENpdWRhZGFub0xheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Shared/Footer.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Shared/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZvb3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Shared/Nav.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Shared/Nav.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Shared/NavAdmin.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Shared/NavAdmin.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdkFkbWluLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Shared/NavCiudadano.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Shared/NavCiudadano.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdkNpdWRhZGFuby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Shared/SurveyPrompt.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/_Imports.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Shared/MainLayout.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-hdvikc7qxz
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Shared/NavMenu.razor]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-21bi1p0vah
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Error.cshtml]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/_Host.cshtml]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/_Layout.cshtml]
+[c:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
