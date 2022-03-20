@@ -12,6 +12,350 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": -1905894210,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.FetchData",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": 1373274591,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.FetchData",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "taanbus.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1531962334,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Counter",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": -866777722,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Counter",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "taanbus.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -240644422,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Quejas.Form",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Form"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Quejas.Form"
+        }
+      },
+      {
+        "HashCode": 1143256077,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Quejas.Form",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "taanbus.Pages.Quejas.Form"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Quejas.Form",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1173037128,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Quejas.Delete",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Delete"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Quejas.Delete"
+        }
+      },
+      {
+        "HashCode": -1516606085,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Quejas.Delete",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "taanbus.Pages.Quejas.Delete"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Quejas.Delete",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 689560656,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Quejas.Index",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Quejas.Index"
+        }
+      },
+      {
+        "HashCode": 66414139,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Quejas.Index",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "taanbus.Pages.Quejas.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Quejas.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1238676595,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Sugerencias.Form",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Form"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Sugerencias.Form"
+        }
+      },
+      {
+        "HashCode": 676942954,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Sugerencias.Form",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "taanbus.Pages.Sugerencias.Form"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Sugerencias.Form",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -644167063,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Sugerencias.Delete",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Delete"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Sugerencias.Delete"
+        }
+      },
+      {
+        "HashCode": -261190079,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Sugerencias.Delete",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "taanbus.Pages.Sugerencias.Delete"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Sugerencias.Delete",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1619246334,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Sugerencias.Index",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Sugerencias.Index"
+        }
+      },
+      {
+        "HashCode": -429641165,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Sugerencias.Index",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "taanbus.Pages.Sugerencias.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Sugerencias.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1348330471,
         "Kind": "Components.Component",
         "Name": "taanbus.Pages.Ciudadano.Sugerencias.Index",
@@ -219,141 +563,35 @@
         }
       },
       {
-        "HashCode": -644167063,
+        "HashCode": 1788333996,
         "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Sugerencias.Delete",
+        "Name": "taanbus.Pages.Login",
         "AssemblyName": "taanbus",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Delete"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32?",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
+            "TagName": "Login"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Sugerencias.Delete"
+          "Common.TypeName": "taanbus.Pages.Login"
         }
       },
       {
-        "HashCode": -261190079,
+        "HashCode": -1595743881,
         "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Sugerencias.Delete",
+        "Name": "taanbus.Pages.Login",
         "AssemblyName": "taanbus",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "taanbus.Pages.Sugerencias.Delete"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32?",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
+            "TagName": "taanbus.Pages.Login"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Sugerencias.Delete",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1238676595,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Sugerencias.Form",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Form"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32?",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Sugerencias.Form"
-        }
-      },
-      {
-        "HashCode": 676942954,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Sugerencias.Form",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "taanbus.Pages.Sugerencias.Form"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32?",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Sugerencias.Form",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1619246334,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Sugerencias.Index",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Sugerencias.Index"
-        }
-      },
-      {
-        "HashCode": -429641165,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Sugerencias.Index",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "taanbus.Pages.Sugerencias.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Sugerencias.Index",
+          "Common.TypeName": "taanbus.Pages.Login",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -387,244 +625,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "taanbus.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1905894210,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.FetchData",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 1373274591,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.FetchData",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "taanbus.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1588498161,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Register",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Register"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Register"
-        }
-      },
-      {
-        "HashCode": 1074651532,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Register",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "taanbus.Pages.Register"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Register",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1531962334,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Counter",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": -866777722,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Counter",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "taanbus.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -240644422,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Quejas.Form",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Form"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32?",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Quejas.Form"
-        }
-      },
-      {
-        "HashCode": 1143256077,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Quejas.Form",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "taanbus.Pages.Quejas.Form"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32?",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Quejas.Form",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 689560656,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Quejas.Index",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Quejas.Index"
-        }
-      },
-      {
-        "HashCode": 66414139,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Quejas.Index",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "taanbus.Pages.Quejas.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Quejas.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1173037128,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Quejas.Delete",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Delete"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32?",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Quejas.Delete"
-        }
-      },
-      {
-        "HashCode": -1516606085,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Quejas.Delete",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "taanbus.Pages.Quejas.Delete"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32?",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Quejas.Delete",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -694,6 +694,75 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "taanbus.Pages.Admin.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1062310248,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Admin.Sugerencias.Index",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Token",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Token"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Admin.Sugerencias.Index"
+        }
+      },
+      {
+        "HashCode": 1780156650,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Pages.Admin.Sugerencias.Index",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "taanbus.Pages.Admin.Sugerencias.Index"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Token",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Token"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Pages.Admin.Sugerencias.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -852,104 +921,35 @@
         }
       },
       {
-        "HashCode": -1062310248,
+        "HashCode": 1588498161,
         "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Admin.Sugerencias.Index",
+        "Name": "taanbus.Pages.Register",
         "AssemblyName": "taanbus",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32?",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Token",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Token"
-            }
+            "TagName": "Register"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Admin.Sugerencias.Index"
+          "Common.TypeName": "taanbus.Pages.Register"
         }
       },
       {
-        "HashCode": 1780156650,
+        "HashCode": 1074651532,
         "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Admin.Sugerencias.Index",
+        "Name": "taanbus.Pages.Register",
         "AssemblyName": "taanbus",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "taanbus.Pages.Admin.Sugerencias.Index"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.Int32?",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Token",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Token"
-            }
+            "TagName": "taanbus.Pages.Register"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Admin.Sugerencias.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1788333996,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Login",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Login"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Login"
-        }
-      },
-      {
-        "HashCode": -1595743881,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Pages.Login",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "taanbus.Pages.Login"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Pages.Login",
+          "Common.TypeName": "taanbus.Pages.Register",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -1036,102 +1036,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "taanbus.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -518136700,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Shared.AdminLayout",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AdminLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Shared.AdminLayout"
-        }
-      },
-      {
-        "HashCode": -690403364,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Shared.AdminLayout",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "taanbus.Shared.AdminLayout"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Shared.AdminLayout",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -354725958,
-        "Kind": "Components.ChildContent",
-        "Name": "taanbus.Shared.AdminLayout.Body",
-        "AssemblyName": "taanbus",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "AdminLayout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "taanbus.Shared.AdminLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent"
-        }
-      },
-      {
-        "HashCode": -837091752,
-        "Kind": "Components.ChildContent",
-        "Name": "taanbus.Shared.AdminLayout.Body",
-        "AssemblyName": "taanbus",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "taanbus.Shared.AdminLayout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "taanbus.Shared.AdminLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -1265,39 +1169,6 @@
         }
       },
       {
-        "HashCode": -1725513309,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Shared.NavAdmin",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavAdmin"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Shared.NavAdmin"
-        }
-      },
-      {
-        "HashCode": 1329491088,
-        "Kind": "Components.Component",
-        "Name": "taanbus.Shared.NavAdmin",
-        "AssemblyName": "taanbus",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "taanbus.Shared.NavAdmin"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "taanbus.Shared.NavAdmin",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 981348677,
         "Kind": "Components.Component",
         "Name": "taanbus.Shared.Nav",
@@ -1327,6 +1198,264 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "taanbus.Shared.Nav",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1659734918,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Shared.CiudadanoLayout",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CiudadanoLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Shared.CiudadanoLayout"
+        }
+      },
+      {
+        "HashCode": -1526453655,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Shared.CiudadanoLayout",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "taanbus.Shared.CiudadanoLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Shared.CiudadanoLayout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1231921855,
+        "Kind": "Components.ChildContent",
+        "Name": "taanbus.Shared.CiudadanoLayout.Body",
+        "AssemblyName": "taanbus",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "CiudadanoLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "taanbus.Shared.CiudadanoLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": 1431047462,
+        "Kind": "Components.ChildContent",
+        "Name": "taanbus.Shared.CiudadanoLayout.Body",
+        "AssemblyName": "taanbus",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "taanbus.Shared.CiudadanoLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "taanbus.Shared.CiudadanoLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -518136700,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Shared.AdminLayout",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AdminLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Shared.AdminLayout"
+        }
+      },
+      {
+        "HashCode": -690403364,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Shared.AdminLayout",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "taanbus.Shared.AdminLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Shared.AdminLayout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -354725958,
+        "Kind": "Components.ChildContent",
+        "Name": "taanbus.Shared.AdminLayout.Body",
+        "AssemblyName": "taanbus",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "AdminLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "taanbus.Shared.AdminLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": -837091752,
+        "Kind": "Components.ChildContent",
+        "Name": "taanbus.Shared.AdminLayout.Body",
+        "AssemblyName": "taanbus",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "taanbus.Shared.AdminLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "taanbus.Shared.AdminLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -756935240,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Shared.NavCiudadano",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavCiudadano"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Shared.NavCiudadano"
+        }
+      },
+      {
+        "HashCode": 1853784007,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Shared.NavCiudadano",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "taanbus.Shared.NavCiudadano"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Shared.NavCiudadano",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1725513309,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Shared.NavAdmin",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavAdmin"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Shared.NavAdmin"
+        }
+      },
+      {
+        "HashCode": 1329491088,
+        "Kind": "Components.Component",
+        "Name": "taanbus.Shared.NavAdmin",
+        "AssemblyName": "taanbus",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "taanbus.Shared.NavAdmin"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "taanbus.Shared.NavAdmin",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -17650,6 +17779,11 @@
   "RootNamespace": "taanbus",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\TaanBusWeb\\Shared\\CiudadanoLayout.razor",
+      "TargetPath": "Shared\\CiudadanoLayout.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\TaanBusWeb\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
@@ -17657,6 +17791,11 @@
     {
       "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\TaanBusWeb\\Pages\\Quejas\\Form.razor",
       "TargetPath": "Pages\\Quejas\\Form.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\viern\\Documents\\code\\dotnet\\TaanBusWeb\\Shared\\NavCiudadano.razor",
+      "TargetPath": "Shared\\NavCiudadano.razor",
       "FileKind": "component"
     },
     {

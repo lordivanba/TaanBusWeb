@@ -7,9 +7,13 @@
 @using System.Net.Http.Json
 @inject HttpClient http
 @inject NavigationManager nav
+@layout CiudadanoLayout
 
 
-<h3>Gestión de mis sugerencias</h3>
+<h3 class="text-center">Gestión de sugerencias de los ciudadanos</h3>
+<div class="button_">
+    <button @onclick="Regresar" class="btn btn-outline-primary">Regresar al panel ciudadano</button>
+</div>
 
 <div class="shadow p-3 mb-5 bg-body rounded w-100 mt-4">
     @if (sugerencias != null)
@@ -17,9 +21,9 @@
         <table class="mytable table">
             <thead>
                 <tr>
-                    <th scope="col">Ciudadano</th>
-                    <th scope="col">Descripción</th>
+                    <th scope="col">Sugerencia</th>
                     <th scope="col">Fecha de registro</th>
+                    <th scope="col"></th>
                 </tr>
             </thead>
             <tbody>
@@ -27,7 +31,7 @@
                 {
                     <tr>
                         <td scope="col">@sugerencia.Descripcion</td>
-                        <td scope="col">@sugerencia.FechaRegistro</td>
+                        <td scope="col">@(sugerencia.FechaRegistro.ToString("yyyy-MM-dd"))</td>
                         <td scope="col">
                             <button class="btn btn-outline-dark" @onclick="() => showSugerencia(sugerencia.Id)"><i><img
                                 src="https://img.icons8.com/material-outlined/24/000000/edit--v1.png" /></i></button>
@@ -57,5 +61,8 @@
     {
         nav.NavigateTo($"sugerencia/{id}");
     }
-
+    void Regresar()
+    {
+        nav.NavigateTo($"panel_ciudadano/{Id}/{Token}");
+    }
 }

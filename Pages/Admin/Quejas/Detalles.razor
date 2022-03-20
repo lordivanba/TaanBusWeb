@@ -2,6 +2,10 @@
 @using Data.Models
 @inject HttpClient http
 @inject NavigationManager nav
+@layout AdminLayout
+
+
+<PageTitle>Detalles de queja</PageTitle>
 
 @if (Id != null && Admin_Id != null)
 {
@@ -14,8 +18,8 @@
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">Reportado por: @queja.Ciudadano</li>
-                <li class="list-group-item">Fecha de los hechos: @queja.FechaHechos</li>
-                <li class="list-group-item">Fecha de registro: @queja.FechaRegistro</li>
+                <li class="list-group-item">Fecha de los hechos: @(queja.FechaHechos.ToString("yyyy-MM-dd"))</li>
+                <li class="list-group-item">Fecha de registro: @(queja.FechaRegistro.ToString("yyyy-MM-dd"))</li>
                 <li class="list-group-item">Estado de la queja: @(queja.Status == 1 ? "Aprobado" : queja.Status == 2 ?
                 "Rechazado" : "Pendiente")</li>
             </ul>
