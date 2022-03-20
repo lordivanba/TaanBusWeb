@@ -1,0 +1,57 @@
+@page "/panel_ciudadano/{id:int}/{token}/quejas/{queja_id:int}/delete"
+
+<PageTitle>Eliminar queja</PageTitle>
+
+@using taanbus.Data.Models
+@using System.Net.Http
+@using System.Net.Http.Json
+@inject HttpClient http
+@inject NavigationManager nav
+@layout CiudadanoLayout
+
+@if (Id != null)
+{
+    <PageTitle>Eliminar queja</PageTitle>
+    <div class="container w-50 mb-2">
+        <h3 class="text-center display-6">Eliminar queja</h3>
+    </div>
+    <hr>
+    <div class="container w-50 mb-2 mt-2">
+        <h5 class="text-center">¿Desea eliminar esta queja?</h5>
+        <div class="row d-flex justify-content-center align-content-center mt-2">
+            <button @onclick="Cancel" type="submit"
+            class="btn btn-outline-primary btn-sm mt-2 me-3 col-auto">Cancelar</button>
+            <button @onclick="Confirm" type="submit" class="btn btn-danger mt-2  btn-sm me-1 col-auto">Confirmar</button>
+        </div>
+    </div>
+
+
+}
+else
+{
+    <p>No id</p>
+}
+
+@code
+{
+    [Parameter] public int? Id { get; set; }
+    [Parameter] public string? Token { get; set; }
+    [Parameter] public int? Queja_Id { get; set; }
+    private void Cancel()
+    {
+        nav.NavigateTo($"panel_ciudadano/{Id}/{Token}/quejas");
+    }
+
+    private async Task Confirm()
+    {
+        try
+        {
+            await http.DeleteAsync($"api/queja/{Queja_Id}");
+            nav.NavigateTo($"panel_ciudadano/{Id}/{Token}/quejas");
+        }
+        catch (Exception e)
+        {
+            throw new Exception(e.Message);
+        }
+    }
+}

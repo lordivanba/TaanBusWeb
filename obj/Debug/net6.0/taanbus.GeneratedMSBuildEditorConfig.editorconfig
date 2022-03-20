@@ -31,6 +31,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUXVlamFzXEluZGV4LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Admin/Sugerencias/Detalles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU3VnZXJlbmNpYXNcRGV0YWxsZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Admin/Sugerencias/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU3VnZXJlbmNpYXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -39,8 +43,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l1ZGFkYW5vXEluZGV4LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Quejas/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l1ZGFkYW5vXFF1ZWphc1xEZWxldGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Quejas/Form.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l1ZGFkYW5vXFF1ZWphc1xGb3JtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Quejas/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l1ZGFkYW5vXFF1ZWphc1xJbmRleC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Sugerencias/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l1ZGFkYW5vXFN1Z2VyZW5jaWFzXERlbGV0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Sugerencias/Form.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2l1ZGFkYW5vXFN1Z2VyZW5jaWFzXEZvcm0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/viern/Documents/code/dotnet/TaanBusWeb/Pages/Ciudadano/Sugerencias/Index.razor]

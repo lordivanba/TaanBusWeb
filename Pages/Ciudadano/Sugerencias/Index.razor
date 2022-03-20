@@ -14,15 +14,19 @@
 <div class="button_">
     <button @onclick="Regresar" class="btn btn-outline-primary">Regresar al panel ciudadano</button>
 </div>
+<div class="button_ mt-2">
+    <button @onclick="PresentarSugerencia" class="btn btn-outline-success">Presentar sugerencia</button>
+</div>
 
-<div class="shadow p-3 mb-5 bg-body rounded w-100 mt-4">
+<div class="shadow p-3 mb-5 bg-body rounded w-100">
     @if (sugerencias != null)
     {
-        <table class="mytable table">
+        <table class="mytable table table-hover">
             <thead>
                 <tr>
                     <th scope="col">Sugerencia</th>
                     <th scope="col">Fecha de registro</th>
+                    <th scope="col">Estado</th>
                     <th scope="col"></th>
                 </tr>
             </thead>
@@ -32,9 +36,12 @@
                     <tr>
                         <td scope="col">@sugerencia.Descripcion</td>
                         <td scope="col">@(sugerencia.FechaRegistro.ToString("yyyy-MM-dd"))</td>
+                        <td scope="col">@(sugerencia.Status == 1 ? "Aprobado" : sugerencia.Status == 2 ? "Rechazado" :
+                    "Pendiente")</td>
                         <td scope="col">
-                            <button class="btn btn-outline-dark" @onclick="() => showSugerencia(sugerencia.Id)"><i><img
-                                src="https://img.icons8.com/material-outlined/24/000000/edit--v1.png" /></i></button>
+                            <button class="btn btn-outline-dark" @onclick="() => showSugerencia(sugerencia.Id)">
+                                <img src="\images\edit-dark.png" style="width: 1.3rem; height: auto;">
+                            </button>
                         </td>
                     </tr>
                 }
@@ -57,12 +64,16 @@
     {
         sugerencias = await http.GetFromJsonAsync<IList<SugerenciaModel>>($"{api}{Id}");
     }
-    void showSugerencia(int id)
+    void showSugerencia(int Sugerencia_Id)
     {
-        nav.NavigateTo($"sugerencia/{id}");
+        nav.NavigateTo($"/panel_ciudadano/{Id}/{Token}/sugerencias/{Sugerencia_Id}");
     }
     void Regresar()
     {
         nav.NavigateTo($"panel_ciudadano/{Id}/{Token}");
+    }
+    void PresentarSugerencia()
+    {
+        nav.NavigateTo($"/panel_ciudadano/{Id}/{Token}/sugerencias/form");
     }
 }

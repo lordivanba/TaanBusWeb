@@ -4,6 +4,8 @@ html, body {
     /* font-family: 'Helvetica', Helvetica, Arial, sans-serif; */
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
 }
 .container_form{
     width: 50%;
@@ -14,8 +16,20 @@ html, body {
 
 .mytable{
     font-size: 0.9rem;
+    font-weight: 500;
     text-transform: uppercase;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+
 
 .container_taanbus{
     font-size: 0.95rem;

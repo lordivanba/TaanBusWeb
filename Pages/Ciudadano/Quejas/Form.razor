@@ -1,0 +1,149 @@
+@page "/panel_ciudadano/{id:int}/{token}/quejas/form"
+@page "/panel_ciudadano/{id:int}/{token}/quejas/{queja_id:int}"
+
+@using taanbus.Data.Models
+@using System.Net.Http
+@using System.Net.Http.Json
+@inject HttpClient http
+@inject NavigationManager nav
+@layout CiudadanoLayout
+
+
+@if (Queja_Id == null)
+{
+    <PageTitle>Presentar queja</PageTitle>
+
+    <div class="container w-50 mb-2">
+        <h3 class="text-center">Presentar queja</h3>
+    </div>
+
+    <hr>
+
+    <EditForm class="container_form container w-50" Model="@queja">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div class="form-floating mb-3">
+            <InputText @bind-Value="@queja.MotivoQueja" type="text" class="form-control" id="Nombre" placeholder="Nombre">
+            </InputText>
+            <label for="Nombre">Motivo</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <InputDate @bind-Value="@queja.FechaHechos" class="form-control" id="fecha_hechos">
+            </InputDate>
+            <label for="fecha_hechos">Fecha de los hechos</label>
+        </div>
+
+        <div class="form-floating">
+            <InputTextArea @bind-Value="@queja.Descripcion" class="form-control" placeholder="descripcion" id="descripcion"
+            style="height: 200px"></InputTextArea>
+            <label for="descripcion">Descripción</label>
+        </div>
+
+        <div class="row g-2 ms-1">
+            <button @onclick="Save" type="submit" class="btn btn-success mt-4 me-4 col-auto">Guardar</button>
+        </div>
+
+    </EditForm>
+}
+else
+{
+    <PageTitle>Detalles queja</PageTitle>
+    <div class="container w-50 mb-2">
+        <h4 class="text-center display-6">Detalles queja</h4>
+    </div>
+
+    <hr>
+
+    <EditForm class="container_form container w-50" Model="@queja">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div class="form-floating mb-3">
+            <InputText @bind-Value="@queja.MotivoQueja" type="text" class="form-control" id="Nombre" placeholder="Nombre">
+            </InputText>
+            <label for="Nombre">Motivo</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <InputDate @bind-Value="@queja.FechaHechos" class="form-control" id="fecha_hechos">
+            </InputDate>
+            <label for="fecha_hechos">Fecha de los hechos</label>
+        </div>
+
+        <div class="form-floating">
+            <InputTextArea @bind-Value="@queja.Descripcion" class="form-control" placeholder="descripcion" id="descripcion"
+            style="height: 200px"></InputTextArea>
+            <label for="descripcion">Descripción</label>
+        </div>
+
+
+        <div class="row g-2 ms-1">
+            <button @onclick="Update" type="submit" class="btn btn-success mt-4 me-4 col-auto">Actualizar</button>
+            <button @onclick="Delete" type="submit" class="btn btn-danger mt-4 me-4 col-auto">Eliminar</button>
+        </div>
+    </EditForm>
+}
+
+@code {
+    [Parameter] public int? Id { get; set; }
+    [Parameter] public string? Token { get; set; }
+    [Parameter] public int? Queja_Id { get; set; }
+    QuejaModel? queja = new QuejaModel();
+
+    protected override async Task OnInitializedAsync()
+    {
+        queja.FechaHechos = DateTime.Now;
+        if (Queja_Id != null)
+        {
+            queja = await http.GetFromJsonAsync<QuejaModel>($"api/queja/{Queja_Id}");
+        }
+    }
+
+    //TODO user_id = null?;
+    private async Task Save()
+    {
+        if (!String.IsNullOrEmpty(queja.MotivoQueja) && !String.IsNullOrEmpty(queja.Descripcion))
+        {
+            //NECESITA EL ID
+            queja.UserId = Id;
+            try
+            {
+                await http.PostAsJsonAsync<QuejaModel>("api/queja", queja);
+                nav.NavigateTo($"panel_ciudadano/{Id}/{Token}/quejas");
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+    }
+
+    private async Task Update()
+    {
+        if (!String.IsNullOrEmpty(queja.MotivoQueja) && !String.IsNullOrEmpty(queja.Descripcion))
+        {
+            try
+            {
+                await http.PutAsJsonAsync<QuejaModel>($"api/queja/{Queja_Id}", queja);
+                nav.NavigateTo($"panel_ciudadano/{Id}/{Token}/quejas");
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+    }
+
+    private void Delete()
+    {
+        nav.NavigateTo($"/panel_ciudadano/{Id}/{Token}/quejas/{Queja_Id}/delete");
+    }
+
+    @* private async Task Delete(){
+        try{
+        await http.DeleteAsync($"api/queja/{Id}");
+        } catch (Exception e){
+        throw new Exception(e.Message);
+        }
+        } *@
+}

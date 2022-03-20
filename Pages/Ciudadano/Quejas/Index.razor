@@ -13,16 +13,21 @@
 <div class="button_">
     <button @onclick="Regresar" class="btn btn-outline-primary">Regresar al panel ciudadano</button>
 </div>
+<div class="button_ mt-2">
+    <button @onclick="PresentarQueja" class="btn btn-outline-danger">Presentar queja</button>
+</div>
 <div class="shadow p-3 mb-5 bg-body rounded w-100 mt-4">
     @if (quejas != null)
     {
-        <table class="mytable table w-100">
+        <table class="mytable table w-100 table-hover">
             <thead>
                 <tr>
                     <th scope="col">Motivo</th>
                     <th scope="col">Fecha de hechos</th>
                     <th scope="col">Descripción</th>
                     <th scope="col">Fecha de registro</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col"></th>
                 </tr>
             </thead>
             <tbody>
@@ -33,9 +38,11 @@
                         <td scope="col">@(queja.FechaHechos.ToString("yyyy-MM-dd"))</td>
                         <td scope="col">@queja.Descripcion</td>
                         <td scope="col">@(queja.FechaRegistro.ToString("yyyy-MM-dd"))</td>
+                        <td scope="col">@(queja.Status == 1 ? "Aprobado" : queja.Status == 2 ? "Rechazado" : "Pendiente")</td>
                         <td scope="col">
-                            <button class="btn btn-outline-dark" @onclick="() => showQueja(queja.Id)"><i><img
-                                src="https://img.icons8.com/material-outlined/24/000000/edit--v1.png" /></i></button>
+                            <button class="btn btn-outline-dark" @onclick="() => showQueja(queja.Id)">
+                               <img src="\images\edit-dark.png" style="width: 1.3rem; height: auto;">
+                            </button>
                         </td>
                     </tr>
                 }
@@ -60,12 +67,16 @@
         quejas = await http.GetFromJsonAsync<IList<QuejaModel>>($"{api}{Id}");
     }
 
-    void showQueja(int id)
+    void showQueja(int queja_id)
     {
-        nav.NavigateTo($"queja/{id}");
+        nav.NavigateTo($"/panel_ciudadano/{Id}/{Token}/quejas/{queja_id}");
     }
     void Regresar()
     {
         nav.NavigateTo($"panel_ciudadano/{Id}/{Token}");
+    }
+    void PresentarQueja()
+    {
+        nav.NavigateTo($"/panel_ciudadano/{Id}/{Token}/quejas/form");
     }
 }
