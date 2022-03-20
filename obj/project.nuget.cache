@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z5Ebe+7WtUxMRuwhjVos8OsMhhnUazbzFIdCEoGz5oOh+gYp3Sb0Go7SUb+j4+Fd0cXIROIIrARSNKWDrEue9Q==",
+  "dgSpecHash": "B/5tceuKvDykZ8JdgzloLbzKdhCb4CRnVUuz7ptrtp6YojyIU4LKtfiAox3/RM0FRA7GYB2oAhkRQ1HtqgwQLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\taanbus.csproj",
+  "projectFilePath": "C:\\Users\\viern\\Documents\\code\\dotnet\\TaanBusWeb\\taanbus.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

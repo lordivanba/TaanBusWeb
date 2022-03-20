@@ -1,17 +1,18 @@
 @page "/panel_administrativo/{id:int}/{token}"
 @inject NavigationManager nav
+@layout AdminLayout
+
 
 @if (Id != null)
 {
     <div class="container w-50 mb-2">
         <h3 class="text-center">Panel administrativo</h3>
     </div>
-
     <hr>
     <div class="container">
         <div class="row">
             <div class="col">
-                <div class="card text-center">
+                <div class="card text-center shadow p-3 mb-5 bg-body rounded">
                     <div class="card-body">
                         <h3 class="card-title">Quejas</h3>
                         <p class="card-text">En este apartado tendrás acceso a las quejas que han registrado los ciudadanos
@@ -21,7 +22,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card text-center">
+                <div class="card text-center shadow p-3 mb-5 bg-body rounded">
                     <div class="card-body">
                         <h3 class="card-title">Sugerencias</h3>
                         <p class="card-text">En este apartado tendrás acceso a las sugerencias que han registrado los
@@ -42,7 +43,7 @@
         nav.NavigateTo($"panel_administrativo/{Id}/{Token}/quejas");
     }
 
-        private void Sugerencias()
+    private void Sugerencias()
     {
         nav.NavigateTo($"/panel_administrativo/{Id}/{Token}/sugerencias");
     }

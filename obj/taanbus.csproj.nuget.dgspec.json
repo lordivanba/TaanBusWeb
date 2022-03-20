@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\taanbus.csproj": {}
+    "C:\\Users\\viern\\Documents\\code\\dotnet\\TaanBusWeb\\taanbus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\taanbus.csproj": {
+    "C:\\Users\\viern\\Documents\\code\\dotnet\\TaanBusWeb\\taanbus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\taanbus.csproj",
+        "projectUniqueName": "C:\\Users\\viern\\Documents\\code\\dotnet\\TaanBusWeb\\taanbus.csproj",
         "projectName": "taanbus",
-        "projectPath": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\taanbus.csproj",
+        "projectPath": "C:\\Users\\viern\\Documents\\code\\dotnet\\TaanBusWeb\\taanbus.csproj",
         "packagesPath": "C:\\Users\\viern\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\viern\\Documents\\code\\dotnet\\taanbus_web\\obj\\",
+        "outputPath": "C:\\Users\\viern\\Documents\\code\\dotnet\\TaanBusWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\viern\\AppData\\Roaming\\NuGet\\NuGet.Config",

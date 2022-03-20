@@ -1,0 +1,85 @@
+@page "/queja/detalles/{id:int}/auth/{token}/{admin_id:int}"
+@using Data.Models
+@inject HttpClient http
+@inject NavigationManager nav
+
+@if (Id != null && Admin_Id != null)
+{
+    <div class="d-flex justify-content-center">
+        <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 38rem;">
+            <img src="\images\queja.jpg" class="card-img-top rounded mx-auto d-block" style="width: 12rem; height: auto;">
+            <div class="card-body">
+                <h5 class="card-title">Motivo: @queja.MotivoQueja</h5>
+                <h6 class="card-text">Descripcion: @queja.Descripcion</h6>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Reportado por: @queja.Ciudadano</li>
+                <li class="list-group-item">Fecha de los hechos: @queja.FechaHechos</li>
+                <li class="list-group-item">Fecha de registro: @queja.FechaRegistro</li>
+                <li class="list-group-item">Estado de la queja: @(queja.Status == 1 ? "Aprobado" : queja.Status == 2 ?
+                "Rechazado" : "Pendiente")</li>
+            </ul>
+            <div class="card-body">
+                <button @onclick="Rechazar" class="btn btn-danger">Rechazar</button>
+                <button @onclick="Aprobar" class="btn btn-success">Aprobar</button>
+                <button @onclick="Pendiente" class="btn btn-dark">Marcar como pendiente</button>
+            </div>
+        </div>
+    </div>
+}
+@code {
+    [Parameter] public int? Id { get; set; }
+    [Parameter] public string Token { get; set; }
+    [Parameter] public int? Admin_Id { get; set; }
+
+    QuejaModel? queja = new QuejaModel();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (Id != null)
+        {
+            queja = await http.GetFromJsonAsync<QuejaModel>($"api/queja/{Id}");
+        }
+    }
+
+    private async Task Aprobar()
+    {
+        try
+        {
+            queja.Status = 1;
+            await http.PutAsJsonAsync($"api/queja/update_status/{Id}", queja);
+            nav.NavigateTo($"panel_administrativo/{Admin_Id}/{Token}/quejas");
+        }
+        catch (Exception e)
+        {
+            throw new Exception(e.Message);
+        }
+    }
+
+    private async Task Rechazar()
+    {
+        try
+        {
+            queja.Status = 2;
+            await http.PutAsJsonAsync($"api/queja/update_status/{Id}", queja);
+            nav.NavigateTo($"panel_administrativo/{Admin_Id}/{Token}/quejas");
+        }
+        catch (Exception e)
+        {
+            throw new Exception(e.Message);
+        }
+    }
+    private async Task Pendiente()
+    {
+        try
+        {
+            queja.Status = 0;
+            await http.PutAsJsonAsync($"api/queja/update_status/{Id}", queja);
+            nav.NavigateTo($"panel_administrativo/{Admin_Id}/{Token}/quejas");
+        }
+        catch (Exception e)
+        {
+            throw new Exception(e.Message);
+        }
+    }
+}

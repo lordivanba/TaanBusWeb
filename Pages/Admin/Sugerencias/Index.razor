@@ -7,8 +7,12 @@
 @using System.Net.Http.Json
 @inject HttpClient http
 @inject NavigationManager nav
+@layout AdminLayout
 
 <h3 class="text-center">Gestión de sugerencias de los ciudadanos</h3>
+<div class="button_">
+    <button @onclick="Regresar" class="btn btn-outline-primary">Regresar al panel administrativo</button>
+</div>
 <div class="shadow p-3 mb-5 bg-body rounded w-100 mt-4">
     @if (sugerencias != null)
     {
@@ -54,6 +58,10 @@
     void showSugerencia(int id)
     {
         nav.NavigateTo($"sugerencia/{id}");
+    }
+    void Regresar()
+    {
+        nav.NavigateTo($"panel_administrativo/{Id}/{Token}");
     }
 
 }

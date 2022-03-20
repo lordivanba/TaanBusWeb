@@ -7,8 +7,13 @@
 @using System.Net.Http.Json
 @inject HttpClient http
 @inject NavigationManager nav
+@layout AdminLayout
 
 <h3 class="text-center">Gestión de quejas de los ciudadanos</h3>
+
+<div class="button_">
+    <button @onclick="Regresar" class="btn btn-outline-primary">Regresar al panel administrativo</button>
+</div>
 
 <div class="shadow p-3 mb-5 bg-body rounded w-100 mt-4">
     @if (quejas != null)
@@ -18,9 +23,9 @@
                 <tr>
                     <th scope="col">Ciudadano</th>
                     <th scope="col">Motivo</th>
-                    <th scope="col">Fecha de hechos</th>
                     <th scope="col">Descripción</th>
-                    <th scope="col">Fecha de registro</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col"></th>
                 </tr>
             </thead>
             <tbody>
@@ -29,12 +34,12 @@
                     <tr>
                         <td scope="col">@queja.Ciudadano</td>
                         <td scope="col">@queja.MotivoQueja</td>
-                        <td scope="col">@queja.FechaHechos</td>
                         <td scope="col">@queja.Descripcion</td>
-                        <td scope="col">@queja.FechaRegistro</td>
+                        <td scope="col">@(queja.Status == 1 ? "Aprobado" : queja.Status == 2 ? "Rechazado" : "Pendiente")</td>
                         <td scope="col">
-                            <button class="btn btn-outline-dark" @onclick="() => showQueja(queja.Id)"><i><img
-                                src="https://img.icons8.com/material-outlined/24/000000/edit--v1.png" /></i></button>
+                            <div>
+                                <button @onclick="() => showQueja(queja.Id)" type="button" class="btn btn-primary">Detalles</button>
+                            </div>
                         </td>
                     </tr>
                 }
@@ -44,7 +49,7 @@
     else
     {
         <p><em>Cargando...</em></p>
-    } 
+    }
 </div>
 
 
@@ -57,10 +62,17 @@
     protected override async Task OnInitializedAsync()
     {
         quejas = await http.GetFromJsonAsync<IList<QuejaModel>>(api);
-    } 
+    }
 
-    void showQueja(int id)
+    void showQueja(int queja_id)
     {
-        nav.NavigateTo($"queja/{id}");
+        @* nav.NavigateTo($"panel_administrativo/{Id}/{Token}/quejas/detalles/{queja_id}"); *@
+        @* nav.NavigateTo("/"); *@
+
+        nav.NavigateTo($"queja/detalles/{queja_id}/auth/{Token}/{Id}");
+    }
+
+    void Regresar(){
+         nav.NavigateTo($"panel_administrativo/{Id}/{Token}");
     }
 }
