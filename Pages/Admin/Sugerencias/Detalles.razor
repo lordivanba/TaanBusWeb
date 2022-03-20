@@ -9,8 +9,9 @@
 @if (Id != null && Admin_Id != null)
 {
     <div class="d-flex justify-content-center">
-        <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 38rem;">
-            <img src="\images\sugerencia.jpg" class="card-img-top rounded mx-auto d-block" style="width: 16rem; height: auto;">
+        <div class="details-card card shadow p-3 mb-5 bg-body rounded" style="width: 38rem;">
+            <img src="\images\sugerencia.jpg" class="card-img-top rounded mx-auto d-block"
+            style="width: 16rem; height: auto;">
             <div class="card-body">
                 <h5 class="card-title">Sugerencia</h5>
                 <h6 class="card-text">Descripcion: @sugerencia.Descripcion</h6>
@@ -18,7 +19,8 @@
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">Aportado por: @sugerencia.Ciudadano</li>
                 <li class="list-group-item">Fecha de registro: @(sugerencia.FechaRegistro.ToString("yyyy-MM-dd"))</li>
-                <li class="list-group-item">Estado de la sugerencia: @(sugerencia.Status == 1 ? "Aprobado" : sugerencia.Status == 2 ?
+                <li class="list-group-item">Estado de la sugerencia: @(sugerencia.Status == 1 ? "Aprobado" :
+                sugerencia.Status == 2 ?
                 "Rechazado" : "Pendiente")</li>
             </ul>
             <div class="card-body">
@@ -27,6 +29,9 @@
                 <button @onclick="Pendiente" class="btn btn-dark">Marcar como pendiente</button>
             </div>
         </div>
+    </div>
+    <div style="height: 4rem;">
+
     </div>
 }
 

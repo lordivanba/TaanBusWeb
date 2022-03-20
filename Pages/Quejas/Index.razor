@@ -8,77 +8,69 @@
 @inject HttpClient http
 @inject NavigationManager nav
 
-<h3>Portal de quejas</h3>
-<hr>
-<div class="">
-    <p class="w-75">Se han realizado investigaciones y el 90% de la poblaciónd Mérida ha tenido problemas o no esta
-        conforme con el
-        transporte público que se imparte en la ciudad por lo cuál decidimos crear esta página para poder dar a conocer
-        todo los problemas que las personas hayan vivido, además de que hemos notado muchas irregularidades con personas
-        de la tercera edad, acoso hacía las mujeres, poco respeto a las mujeres embarazadas, pésima higiene y no hay
-        asientos públicos en los paraderos.</p>
-    <h4>Objetivo</h4>
-    <p class="w-75">La voz del pueblo no ha sido escuchada lo suficiente y queremos que todos nuestros problemas
-        salgan a la luz,
-        como pueblo estamos unidos en esto y se necesitan escuchar nuestras quejas, es la manera más optima de obtener
-        opiniones ya que no se necesitan de encuestas físicas, interacción y a cualquier persona le puede llegar para
-        que esta de su opinión ya que tanto en investigaciones y conocidos personales hemos tenido problemas físicos con
-        este servicio que logra dar secuelas psicológicas.
-    </p>
+<div class="container">
+    <div class="row row-cols-2">
+        <div class="col">
+            <h3>Portal de quejas</h3>
+            <p class="w-100">Se han realizado investigaciones y el 90% de la población de Mérida ha tenido problemas o no
+                está conforme con el transporte público que se ofrece. Por tanto, hemos decidido crear esta página para poder dar a
+                conocer todo los problemas o situaciones que se les ha presentado a la comunidad, además de que hemos notado muchas irregularidades con respecto al trato de
+                personas de la tercera edad, acoso hacía las mujeres, pésima higiene, unidades sin mantenimiento etc.
+            </p>
+            <div>
+                <h4 class="">¿Tienes alguna mala experiencia que desees compartir con la comunidad? Cuéntanos
+                    presetentando tu queja!</h4>
+                <div class="button_ mb-3">
+                    <a class="btn btn-danger" href="login">Presentar queja</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <img class="" src="\images\bad.jpg" style="width: 20rem; height: auto;">
+            <h4>Objetivo</h4>
+            <p class="w-100">La voz del pueblo no ha sido escuchada lo suficiente y queremos que nuestras opiniones y puntos de vista salgan a la luz y sean tomadas en cuenta. Como pueblo, estamos unidos en esto y nuestro objetivo es el marcar un cambio positivo en nuestras vidas.
+            </p>
+        </div>
+    </div>
 </div>
 
-<h4>¿Tienes alguna mala experiencia que desees compartir con la comunidad? Cuéntanos presetentando tu queja!</h4>
-<div class="button_">
-    <a class="btn btn-danger" href="login">Presentar queja</a>
-</div>
-
-<div class="shadow p-3 mb-5 bg-body rounded w-100 mt-4">
-    <h4>Quejas registradas</h4>
-
+<section class="container my-2">
+    <h4 class="text-left">Quejas de la comunidad</h4>
     @if (quejas != null)
     {
-        <table class="mytable table w-100">
-            <thead>
-                <tr>
-                    <th scope="col">Motivo</th>
-                    <th scope="col">Fecha de hechos</th>
-                    <th scope="col">Descripción</th>
-                    <th scope="col">Fecha de registro</th>
-                </tr>
-            </thead>
-            <tbody>
+        <div class="w-100 mb-5" style="height: auto">
+            <div class="row row-cols-4">
                 @foreach (var queja in quejas)
                 {
-                    <tr>
-                        <td scope="col">@queja.MotivoQueja</td>
-                        <td scope="col">@queja.FechaHechos</td>
-                        <td scope="col">@queja.Descripcion</td>
-                        <td scope="col">@queja.FechaRegistro</td>
-                        <td scope="col">
-                            <button class="btn btn-outline-dark" @onclick="() => showQueja(queja.Id)">
-                                <i><img
-                                src="https://img.icons8.com/material-outlined/24/000000/edit--v1.png" /></i></button>
-                        </td>
-                    </tr>
+                    <div class="col">
+                        <div class="mycard card text-dark bg-light mb-3 shadow p-3 mb-5 bg-body rounded" style="max-width: 18rem;">
+                            <div class="card-header">@queja.MotivoQueja</div>
+                            <div class="card-body">
+                                <h5 class="card-title">@queja.Descripcion</h5>
+                            </div>
+                        </div>
+                    </div>
                 }
-            </tbody>
-        </table>
+            </div>
+        </div>
     }
     else
     {
         <p><em>Cargando...</em></p>
-    } 
+    }
+</section>
+<div style="height: 5rem;">
+
 </div>
 
-
 @code {
-    private readonly string api = "api/queja";
+    private readonly string api = "api/queja/aprobadas";
     private IList<QuejaModel>? quejas;
 
     protected override async Task OnInitializedAsync()
     {
         quejas = await http.GetFromJsonAsync<IList<QuejaModel>>(api);
-    } 
+    }
 
     void showQueja(int id)
     {

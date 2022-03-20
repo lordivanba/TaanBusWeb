@@ -13,7 +13,30 @@ html, body {
     font-size: 1rem;
 }
 
+.img-container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  /* Bottom left text */
+.img-container-txt {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
 
+.mycard{
+    text-transform: uppercase;
+}
+
+.details-card {
+    text-transform: uppercase;
+}
 .mytable{
     font-size: 0.9rem;
     font-weight: 500;
