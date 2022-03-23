@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\viern\\Documents\\code\\dotnet\\web\\TaanBusWeb\\taanbus.csproj",
+      "projectUniqueName": "C:\\Users\\viern\\Documents\\code\\dotnet\\web\\TaanBusWeb-1\\taanbus.csproj",
       "projectName": "taanbus",
-      "projectPath": "C:\\Users\\viern\\Documents\\code\\dotnet\\web\\TaanBusWeb\\taanbus.csproj",
+      "projectPath": "C:\\Users\\viern\\Documents\\code\\dotnet\\web\\TaanBusWeb-1\\taanbus.csproj",
       "packagesPath": "C:\\Users\\viern\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\viern\\Documents\\code\\dotnet\\web\\TaanBusWeb\\obj\\",
+      "outputPath": "C:\\Users\\viern\\Documents\\code\\dotnet\\web\\TaanBusWeb-1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\viern\\AppData\\Roaming\\NuGet\\NuGet.Config",
